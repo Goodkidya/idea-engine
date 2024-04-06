@@ -1,5 +1,5 @@
 git init
-git add .
+git add . or "filename"
 git commit -m "commit"
 git branch -M main
 git remote add origin https://github.com/Goodkidya/idea-engine.git
