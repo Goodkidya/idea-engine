@@ -1,0 +1,7 @@
+git log --all --graph
+git branch feature1
+git checkout feature1
+git add .
+git commit -m "commit"
+git remote add origin https://github.com/Goodkidya/idea-engine.git
+git push -u origin feature1
