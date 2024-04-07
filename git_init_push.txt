@@ -4,3 +4,9 @@ git commit -m "commit"
 git branch -M main
 git remote add origin https://github.com/Goodkidya/idea-engine.git
 git push -u origin main
+
+/// 
+feature1 -> merge "merge_feature1"
+conflict -> merge (select & delete) "merge_conflict"
+
+

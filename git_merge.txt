@@ -1,7 +1,9 @@
 git log --all --graph
-git branch feature1
+git branch -M feature1
 git checkout feature1
 git add .
 git commit -m "commit"
 git remote add feature1 https://github.com/Goodkidya/idea-engine.git
 git push -u feature1
+git checkout main
+git merge feature1 -m "merge_feature1"
